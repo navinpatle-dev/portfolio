@@ -73,24 +73,56 @@ My work bridges technical innovation and business value by focusing on productio
     }
   ],
   
+  gitHubRepos: "https://github.com/navinpatle-dev",
+  
   projects: [
     {
-      title: "Credit Card Default Prediction",
-      description: "Case study using ML models (Decision Tree, XGBoost) to predict credit card defaults.",
-      technologies: ["Machine Learning", "Python"],
-      link: "#"
+      title: "Compliance-Validator",
+      description: "Python-based compliance validation tool for enterprise workflows.",
+      technologies: ["Python"],
+      link: "https://github.com/navinpatle-dev/Compliance-Validator"
     },
     {
-      title: "Real Estate Valuation",
-      description: "Predicted real estate values using regression models.",
-      technologies: ["Python", "Machine Learning"],
-      link: "#"
+      title: "Stewart_chatbot",
+      description: "AI chatbot for interactive conversations.",
+      technologies: ["Python"],
+      link: "https://github.com/navinpatle-dev/Stewart_chatbot"
+    },
+    {
+      title: "AuditBot",
+      description: "Federal Audit chatbot for compliance and audit processes.",
+      technologies: ["Python"],
+      link: "https://github.com/navinpatle-dev/AuditBot"
+    },
+    {
+      title: "Credit Card Defaulter Prediction",
+      description: "ML model to predict credit card defaults using XGBoost and Decision Tree.",
+      technologies: ["Python", "Jupyter Notebook"],
+      link: "https://github.com/navinpatle-dev/Credit-Card-Defaulter-Prediction"
+    },
+    {
+      title: "Real Estate Price Prediction",
+      description: "Regression models for real estate valuation.",
+      technologies: ["Python", "Jupyter Notebook"],
+      link: "https://github.com/navinpatle-dev/Real-Estate-Price-Prediction"
+    },
+    {
+      title: "Job Change Prediction",
+      description: "Predicting employee job change likelihood using ML.",
+      technologies: ["R"],
+      link: "https://github.com/navinpatle-dev/Job-Change-Prediction"
     },
     {
       title: "SDSS Celestial Classification",
-      description: "Classified celestial bodies using R programming. Achieved 99% accuracy.",
-      technologies: ["R", "Machine Learning"],
-      link: "#"
+      description: "Classifying celestial bodies (star, quasar, galaxy) using ML.",
+      technologies: ["R"],
+      link: "https://github.com/navinpatle-dev/R-Sloan-Digital-Survey"
+    },
+    {
+      title: "Diabetic Retinopathy Detection",
+      description: "Deep learning model to classify diabetic retinopathy levels.",
+      technologies: ["Python", "MATLAB"],
+      link: "https://github.com/navinpatle-dev/Diabetic-retinopathy"
     }
   ],
   
