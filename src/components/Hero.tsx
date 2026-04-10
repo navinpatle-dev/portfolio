@@ -42,7 +42,7 @@ me.deploy()`}
         
         <div className={styles.imageContainer}>
           <Image 
-            src="/profile.jpg" 
+            src="/portfolio/profile.jpg" 
             alt={portfolioData.name} 
             width={400} 
             height={400} 
