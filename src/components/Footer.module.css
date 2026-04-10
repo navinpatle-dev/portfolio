@@ -1,0 +1,41 @@
+.footer {
+  padding: 40px 20px;
+  border-top: 1px solid var(--card-border);
+  text-align: center;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.copyright {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+}
+
+.social {
+  color: var(--muted);
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.social:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .content {
+    justify-content: center;
+  }
+}

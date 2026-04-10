@@ -1,0 +1,40 @@
+.contact {
+  text-align: center;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 16px 24px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.icon {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,50 @@
+.projects {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: left;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.title {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: var(--foreground);
+}
+
+.description {
+  color: var(--muted);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech {
+  background: rgba(0, 212, 255, 0.1);
+  color: var(--accent);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
