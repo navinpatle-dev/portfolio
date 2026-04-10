@@ -8,8 +8,9 @@ export default function Skills() {
       <h2>Technical Skills</h2>
       <div className={styles.grid}>
         {portfolioData.skills.map((skill, index) => (
-          <div key={index} className={styles.skill}>
-            {skill}
+          <div key={index} className={styles.skillCard}>
+            <span className={styles.icon}>{skill.icon}</span>
+            <span className={styles.skillName}>{skill.name}</span>
           </div>
         ))}
       </div>

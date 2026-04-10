@@ -2,9 +2,9 @@ export const portfolioData = {
   name: "Navinkumar Patle",
   title: "Senior Technical Specialist | GenAI & Risk Analytics Specialist",
   tagline: "Architect of Agentic AI, RAG, and Automation Solutions | Expert in Python, SQL, Tableau, Power BI",
-  about: `I’m a GenAI & Risk Analytics Specialist with a proven track record in designing, building, and deploying enterprise-grade LLM-powered solutions that automate and enhance risk assessment, control testing, and dashboard analysis.
+  about: `I'm a GenAI & Risk Analytics Specialist with a proven track record in designing, building, and deploying enterprise-grade LLM-powered solutions that automate and enhance risk assessment, control testing, and dashboard analysis.
 
-I architect Agentic AI systems, Retrieval-Augmented Generation (RAG) pipelines, and intelligent LLM agents for tasks such as test step generation, BRD-to-code mapping, and autonomous risk drafting. My solutions integrate OpenAI, Gemini, LangChain, and Qdrant/FAISS, with production deployments using Docker, Kubernetes, and cloud-native services.
+I architect Agentic AI systems, Retrieval-Augmented Generation (RAG) pipelines, and intelligent LLM agents. My solutions integrate OpenAI, Gemini, LangChain, and Qdrant/FAISS, with production deployments using Docker, Kubernetes, and cloud-native services.
 
 My work bridges technical innovation and business value by focusing on production-ready AI pipelines, governed workflows, and automation-first design.`,
   email: "navinkpatle@gmail.com",
@@ -14,19 +14,24 @@ My work bridges technical innovation and business value by focusing on productio
   github: "https://github.com/navinpatle-dev",
   
   skills: [
-    "SQL",
-    "Large Language Models (LLM)",
-    "Python",
-    "Machine Learning",
-    "RAG",
-    "GenAI",
-    "Agentic AI",
-    "Automation",
-    "Tableau",
-    "Power BI",
-    "Azure",
-    "Docker",
-    "Kubernetes"
+    { name: "Python", icon: "🐍" },
+    { name: "SQL", icon: "🗃️" },
+    { name: "Machine Learning", icon: "🧠" },
+    { name: "LLM", icon: "🤖" },
+    { name: "RAG", icon: "📚" },
+    { name: "GenAI", icon: "✨" },
+    { name: "Agentic AI", icon: "🔗" },
+    { name: "Automation", icon: "⚙️" },
+    { name: "Tableau", icon: "📊" },
+    { name: "Power BI", icon: "📈" },
+    { name: "Azure", icon: "☁️" },
+    { name: "AWS", icon: "🌐" },
+    { name: "Docker", icon: "📦" },
+    { name: "Kubernetes", icon: "☸️" },
+    { name: "Airflow", icon: "💨" },
+    { name: "Snowflake", icon: "❄️" },
+    { name: "NLP", icon: "🔤" },
+    { name: "BERT", icon: "🧩" }
   ],
   
   experience: [
@@ -54,7 +59,7 @@ My work bridges technical innovation and business value by focusing on productio
       location: "Gurgaon, India",
       startDate: "Apr 2022",
       endDate: "Nov 2023",
-      description: "Improved incident-to-control mapping accuracy to 96% using BERT-based classifier. Built enterprise risk dashboards.",
+      description: "Improved incident-to-control mapping accuracy to 96% using BERT-based classifier.",
       technologies: ["Python", "BERT", "NLP", "Tableau", "Power BI"]
     },
     {
@@ -71,20 +76,20 @@ My work bridges technical innovation and business value by focusing on productio
   projects: [
     {
       title: "Credit Card Default Prediction",
-      description: "Case study on credit card dataset using machine learning models (Decision Tree, XGBoost).",
+      description: "Case study using ML models (Decision Tree, XGBoost) to predict credit card defaults.",
       technologies: ["Machine Learning", "Python"],
       link: "#"
     },
     {
       title: "Real Estate Valuation",
-      description: "Predicted real estate values using regression models (Linear Regression, Random Forest).",
-      technologies: ["Python", "Machine Learning", "Data Analytics"],
+      description: "Predicted real estate values using regression models.",
+      technologies: ["Python", "Machine Learning"],
       link: "#"
     },
     {
-      title: "Celestial Body Classification (SDSS)",
-      description: "Classified celestial bodies as star, quasar, or galaxy using R programming.",
-      technologies: ["R", "Machine Learning", "Classification"],
+      title: "SDSS Celestial Classification",
+      description: "Classified celestial bodies using R programming. Achieved 99% accuracy.",
+      technologies: ["R", "Machine Learning"],
       link: "#"
     }
   ],
@@ -96,7 +101,7 @@ My work bridges technical innovation and business value by focusing on productio
   },
   
   certifications: [
-    "Deep Dive in Data Science, Artificial Intelligence & Machine Learning (Ivy Professional School)",
-    "SQL Challenge (Ivy Professional School)"
+    "Deep Dive in Data Science & AI (Ivy)",
+    "SQL Challenge (Ivy)"
   ]
 };

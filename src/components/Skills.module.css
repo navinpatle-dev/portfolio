@@ -4,25 +4,40 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 16px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-.skill {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 8px;
-  padding: 16px;
-  font-size: 1rem;
-  font-weight: 500;
+.skillCard {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   transition: all 0.3s ease;
   cursor: default;
 }
 
-.skill:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  transform: translateY(-4px);
+.skillCard:hover {
+  border-color: #00d4ff;
+  background: rgba(0, 212, 255, 0.05);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 212, 255, 0.15);
+}
+
+.icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.skillName {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #e6edf3;
+  text-align: center;
 }
